@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Get-X Learning',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        primaryColor: Colors.blue.shade700,
         useMaterial3: true,
       ),
       home: const HomePage(),
