@@ -8,18 +8,31 @@ class ScreenOne extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final height = Get.height;
+    final width = Get.width;
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
-          children: [
-            TextButton(
-                onPressed: () => Get.to(() => HomePage()),
-                child: Text('Go To Home')),
-            TextButton(onPressed: () => Get.back(), child: Text('Go Back')),
-          ],
+         children: [
+           Container(
+             color: Colors.yellow,
+             height: Get.height * 0.3,
+             width: Get.width,
+           ),
+           Container(
+             color: Colors.blue,
+             height: Get.height * 0.3,
+             width: width,
+           ),
+           Container(
+             color: Colors.deepPurpleAccent,
+             height: height * 0.3,
+             width: width,
+           )
+         ],
         ),
       ),
     );
