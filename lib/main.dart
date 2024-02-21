@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_x/languages.dart';
+import 'package:get_x/screens/camera_app.dart';
 import 'package:get_x/screens/color_app.dart';
 import 'package:get_x/screens/counterapp.dart';
 import 'package:get_x/screens/fav_list.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       // translations: Languages(),
       // locale: const Locale('en_US'),
       // fallbackLocale: const Locale('fr_FN'), //If no languages is selected in OS
-      home: const FavFruitsList(),
+      home: const CameraApp(),
     );
   }
 }
