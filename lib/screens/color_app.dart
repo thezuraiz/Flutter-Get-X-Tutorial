@@ -17,7 +17,7 @@ class _GetxColorAppState extends State<GetxColorApp> {
     debugPrint('Build Call');
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Getx Color App"),
+        title: const Text("Get-X Color App"),
         centerTitle: true,
       ),
       body: Center(
