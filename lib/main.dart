@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:get_x/languages.dart';
 import 'package:get_x/screens/color_app.dart';
 import 'package:get_x/screens/counterapp.dart';
+import 'package:get_x/screens/fav_list.dart';
 import 'package:get_x/screens/homepage.dart';
 import 'package:get_x/screens/switch_app.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       // translations: Languages(),
       // locale: const Locale('en_US'),
       // fallbackLocale: const Locale('fr_FN'), //If no languages is selected in OS
-      home: const SwitchApp(),
+      home: const FavFruitsList(),
     );
   }
 }
