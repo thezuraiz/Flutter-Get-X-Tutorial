@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_x/languages.dart';
+import 'package:get_x/screens/color_app.dart';
 import 'package:get_x/screens/counterapp.dart';
 import 'package:get_x/screens/homepage.dart';
 
@@ -21,10 +22,10 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue.shade700,
         useMaterial3: true,
       ),
-      translations: Languages(),
-      locale: const Locale('en_US'),
-      fallbackLocale: const Locale('fr_FN'), //If no languages is selected in OS
-      home: const GetxCounterApp(),
+      // translations: Languages(),
+      // locale: const Locale('en_US'),
+      // fallbackLocale: const Locale('fr_FN'), //If no languages is selected in OS
+      home: const GetxColorApp(),
     );
   }
 }
